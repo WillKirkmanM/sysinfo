@@ -1,0 +1,13 @@
+[package]
+name = "sysinfo"
+version = "0.1.0"
+edition = "2024"
+description = "The sysinfo Command Summarises Linux Memory and Swap Usage Alongside System Uptime, Load Averages, and Process Counts Through a Single Kernel Query"
+keywords = ["parsonlabs", "linux", "syscall", "system-information", "rust"]
+
+[package.metadata.github]
+description = "The sysinfo Command Summarises Linux Memory and Swap Usage Alongside System Uptime, Load Averages, and Process Counts Through a Single Kernel Query"
+topics = ["parsonlabs", "linux", "syscall", "system-information", "rust"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
